@@ -1,0 +1,27 @@
+#id1{
+background-color: rgba(0,0,0,0);
+padding: 20px;
+}
+li{
+    margin: 10px;
+    font-size: 20px;
+}
+#section1{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d1{
+    background-color: rgba(0.2,0.2,0.2,0.2);
+    color: white;
+    text-align: center;
+    margin-left:850px;
+    width:400px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
