@@ -94,5 +94,90 @@
         </div>
         </div>
         </section>
+
+
+        
+
+        <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div id="id5">
+                <img src="logo.jpeg" alt="src" height="100px" width="100px" style="margin: 30px;">
+                <h1 style="color: white;float: right; margin-right: 55px;margin-top: 50px;">StudentBuddy</h1>
+                <hr>
+                <h2 id="id6" >An Website by <strong> <u> Prayansh Mishra </u> </strong></h2>
+              </div>
+        
+              <div class="col-xs-6 col-md-3">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                  <li><a href="Procastination.html">Procastination</a></li>
+                  <li><a href="LacKofFocus.html">lack of focus</a></li>
+                  <li><a href="LackOfVision.html">lack of vision</a></li>
+                  <li><a href="Routine.html">rountine</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/about/">About ME</a></li>
+                  <li><a href="http://scanfcode.com/contact/">Contact ME</a></li>
+                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+             <a href="https://www.instagram.com/prayansh.mishra1/">Prayansh Mishra</a>.
+                </p>
+              </div>
+        
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+       
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+        <script>
+          var mybutton = document.getElementById("myBtn");
+          window.onscroll = function() {scrollFunction()};
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+        <script type="text/javascript">
+          function openChat() {
+            document.getElementById('chatbox').style.display='block';
+            $('.btn-chat').hide();
+          }
+          function closeChat() {
+            document.getElementById('chatbox').style.display='none';
+            $('.btn-chat').show();
+          }
+          $('form').submit(function () {
+            var text=$(this).find("textarea[name='msg']").val();
+      
+            alert(text);
+          });
+        </script>
   </body>
 </html>
